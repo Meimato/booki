@@ -85,6 +85,9 @@ body {
   padding: 15px 18px 16px 18px;
   width: 14px;
   height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-button {
