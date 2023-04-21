@@ -55,28 +55,12 @@ body {
   color: var(--main-bg-color);
 }
 
-header {
-  height: 79px;
-}
-
-.headline > h1 {
-  font-size: 22px;
-}
-
-.headline > p {
-  font-size: 16px;
-}
-
-.search-bar {    
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 79px;
 }
 
 .logo {
@@ -93,14 +77,69 @@ nav {
 }
 
 .menu > li {
-    border-top: 2px solid white;
-    padding: 16px;
+  border-top: 2px solid white;
+  padding: 16px;
 }
 
 .menu > li:hover {
-  color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding: 16px;
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding: 16px;
+}
+
+.info-group {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.headline > h1 {
+  font-size: 22px;
+}
+
+.headline > p {
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.icon-search {
+  background: var(--main-bg-color);
+  border: 1px solid var(--main-bg-color);
+  border-radius: 15px 0px 0px 15px;
+  position: relative;
+  width: 50px;
+  height: 49px;
+}
+
+.fa-location-dot {
+  color: black;
+  position: relative;
+  padding: 15px 18px 16px 18px;
+  width: 14px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  color: white;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 0px 15px 15px 0px;
+  font-weight: 700;
+}
+
+.search-button > p {
+  margin: 15px 16px 15px 16px;
+}
+
+.input-search {
+  border: 1px solid var(--main-bg-color);
 }
 
 .filter-bar {
@@ -116,7 +155,6 @@ nav {
   border-radius: 25px;
   padding: 14px 19px;
 }
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
