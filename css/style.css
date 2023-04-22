@@ -164,6 +164,10 @@ nav {
     background-color: var(--filter-bg-color);
 }
 
+.filter, .search-button, .menu > li {
+    cursor: pointer;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
