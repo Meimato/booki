@@ -159,6 +159,10 @@ nav {
     padding-right: 10px;
 }
 
+.filter:hover {
+    background-color: var(--filter-bg-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
