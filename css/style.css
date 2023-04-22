@@ -154,6 +154,11 @@ nav {
   border-radius: 25px;
   padding: 14px 19px;
 }
+
+.filter > .fa-solid {
+    padding-right: 10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
