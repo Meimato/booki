@@ -302,6 +302,28 @@ p.card-subtitle {
     padding-left: 20px;
 }
 
+/****** Footer ***********/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-bg-color);
+}
+
+footer > ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    width: 33%;
+}
+
+footer > ul > li:first-child {
+    font-weight: bold;
+}
+
+footer > ul > li {
+    padding: 0.5rem;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
