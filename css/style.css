@@ -461,6 +461,10 @@ footer > ul > li {
     flex-direction: column;
   }
 
+  #hebergements {
+    background-color: white;
+  }
+
   .activite-card > img{
     height: 141px;
   }
