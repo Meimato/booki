@@ -347,6 +347,15 @@ footer > ul > li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+
+  .filter-bar > p {
+    flex-basis: 100%;
+    margin-bottom: 0;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
