@@ -78,13 +78,24 @@ nav {
 
 .menu > li {
   border-top: 2px solid white;
-  padding: 16px;
 }
 
 .menu > li:hover {
-  color: var(--main-color);
   border-top: 2px solid var(--main-color);
+}
+
+.menu > li > a {
+  text-decoration: none;
   padding: 16px;
+  display: block;
+}
+
+.menu > li > a:visited {
+    color: black;
+}
+
+.menu > li > a:hover {
+    color: var(--main-color);
 }
 
 .info-group {
