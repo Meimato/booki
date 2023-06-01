@@ -189,6 +189,7 @@ nav {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
+    height: 24px;
 }
 
 .fa-stack {
