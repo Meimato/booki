@@ -452,6 +452,11 @@ footer > ul > li {
     width: 114px;
   }
 
+  .filter-bar {
+    gap: 15px;
+    justify-content: center;
+  }
+
   .hebergements-cards, .populaires-cards, .container, footer {
     flex-direction: column;
   }
