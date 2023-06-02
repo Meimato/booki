@@ -477,12 +477,12 @@ footer > ul > li {
     font-size: 14px;
     line-height: 16px;
     padding: 15px;
-    width: 114px;
+    width: 37%;
   }
 
   .filter-bar {
     gap: 15px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .lens-icon {
